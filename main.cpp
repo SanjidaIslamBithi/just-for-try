@@ -17,7 +17,7 @@ void displayPoints(void)
 
 void displayLines(void)
 {
-    glClearColor (0.0, 0.0, 0.0, 0.0); //background color, alpha always 0
+    glClearColor ( 1.0, 0.0, 0.0, 0.0); //background color, alpha always 0
     glClear(GL_COLOR_BUFFER_BIT); //background pixel/shape clear, notun window
     glBegin(GL_LINES); //GL_Line function 2ta 2ta point jug korbe
         glColor3f (0.0, 0.0, 1.0);
